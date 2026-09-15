@@ -1,0 +1,13 @@
+{
+  "protocol_sha256": "b5cfdbd8f0ac431c1cbece9419b7b9c0b7357b97dde3c89d2f35f0dd468b3b92",
+  "script_sha256": "3b800f1710755184c13032650f759e5b4812b7493c0f48d272adfabb91e686cc",
+  "manifest_sha256": "7074de07b06ba37ac709931779a5d66c67899c3d61083ff74c5f4b17f563dfdf",
+  "origins": 677,
+  "forecast_cases": 6093,
+  "primary_cases": 677,
+  "numerical_check_cases": 306,
+  "first_origin": "2007-01-01T00:00:00Z",
+  "last_origin": "2019-12-16T00:00:00Z",
+  "catalog_rows_read": 0,
+  "labels_created": false
+}

@@ -1,0 +1,501 @@
+{
+  "status": "completed",
+  "sensitivity_results": [
+    {
+      "variant": "n099",
+      "contrast": "branching minus matched_mean_poisson Brier score",
+      "interpretation": "Prespecified secondary sensitivity; does not replace primary result or establish multiplicity-adjusted significance",
+      "scores": {
+        "total_cases": 677,
+        "usable_cases": 677,
+        "missing": 0,
+        "exact_mean_contrast": [
+          {
+            "numerator": "-59616615571924183855337032306519472905821142628267257360652868761530847584056238485449288348813797",
+            "denominator": "23137011573095298012502875121228588505376495386167262804066354695930284069655898437848725325696991232"
+          },
+          {
+            "numerator": "-9588904157119536929660150229064581988566052249457116119618971819634281068343827480551324374500511247",
+            "denominator": "5923074962712396291200736031034518657376382818858819277840986802158152721831910000089273683378429755392"
+          },
+          {
+            "numerator": "-978349331883741728966561884405031184942832654195946600347292795690581708245165815178460535565183823",
+            "denominator": "1480768740678099072800184007758629664344095704714704819460246700539538180457977500022318420844607438848"
+          }
+        ],
+        "bootstrap": [
+          {
+            "block_length": 13,
+            "replicates": 10000,
+            "seed": 20260913,
+            "origins": 677,
+            "sample_mean": [
+              -0.0025766774323287677,
+              -0.0016189064324670336,
+              -0.0006607036635820113
+            ],
+            "percentile_025": [
+              -0.003724788764040126,
+              -0.0028056429296170818,
+              -0.0018920385852442157
+            ],
+            "percentile_975": [
+              -0.0014003844933615864,
+              -0.0003965549378646761,
+              0.0006103612263037451
+            ],
+            "numerical_envelope": [
+              -0.003724788764040126,
+              0.0006103612263037451
+            ],
+            "interpretation": "Dependence-sensitive empirical bootstrap uncertainty; not an exact finite-sample coverage guarantee"
+          },
+          {
+            "block_length": 26,
+            "replicates": 10000,
+            "seed": 20260913,
+            "origins": 677,
+            "sample_mean": [
+              -0.0025766774323287677,
+              -0.0016189064324670336,
+              -0.0006607036635820113
+            ],
+            "percentile_025": [
+              -0.00365022445567964,
+              -0.0027208601458495987,
+              -0.0017948834877330282
+            ],
+            "percentile_975": [
+              -0.0014992642075082898,
+              -0.0005057523776844549,
+              0.0004941327497626296
+            ],
+            "numerical_envelope": [
+              -0.00365022445567964,
+              0.0004941327497626296
+            ],
+            "interpretation": "Dependence-sensitive empirical bootstrap uncertainty; not an exact finite-sample coverage guarantee"
+          },
+          {
+            "block_length": 52,
+            "replicates": 10000,
+            "seed": 20260913,
+            "origins": 677,
+            "sample_mean": [
+              -0.0025766774323287677,
+              -0.0016189064324670336,
+              -0.0006607036635820113
+            ],
+            "percentile_025": [
+              -0.0035448347727328557,
+              -0.0026247836524816394,
+              -0.0016983511142434299
+            ],
+            "percentile_975": [
+              -0.0015799102189052625,
+              -0.0005846231781172039,
+              0.00041180825436304744
+            ],
+            "numerical_envelope": [
+              -0.0035448347727328557,
+              0.00041180825436304744
+            ],
+            "interpretation": "Dependence-sensitive empirical bootstrap uncertainty; not an exact finite-sample coverage guarantee"
+          }
+        ]
+      },
+      "probability_comparison": {
+        "missing": 0,
+        "disjoint_intervals": 33,
+        "usable_cases": 677,
+        "mean_change_bounds": [
+          {
+            "numerator": "-69229574117736722467436834445644023438631163034007",
+            "denominator": "31661971471136680819964628215965555337826122611032064"
+          },
+          {
+            "numerator": "-2985441827741276674700029497807240903476813053871",
+            "denominator": "7915492867784170204991157053991388834456530652758016"
+          },
+          {
+            "numerator": "45346039495806509069836598463186096210816658603039",
+            "denominator": "31661971471136680819964628215965555337826122611032064"
+          }
+        ]
+      }
+    },
+    {
+      "variant": "m025",
+      "contrast": "branching minus matched_mean_poisson Brier score",
+      "interpretation": "Prespecified secondary sensitivity; does not replace primary result or establish multiplicity-adjusted significance",
+      "scores": {
+        "total_cases": 677,
+        "usable_cases": 677,
+        "missing": 0,
+        "exact_mean_contrast": [
+          {
+            "numerator": "-45845354200490284892069709910574139948501944499189882461959976279240676203887837367422889653501321",
+            "denominator": "11568505786547649006251437560614294252688247693083631402033177347965142034827949218924362662848495616"
+          },
+          {
+            "numerator": "-4202522198384381935246400975872476307744487676824288381648015129073790382801457769451545749117868055",
+            "denominator": "1480768740678099072800184007758629664344095704714704819460246700539538180457977500022318420844607438848"
+          },
+          {
+            "numerator": "-633572168004719039275473601095712837827152137177197355771739899764198354270709459765352362643338263",
+            "denominator": "370192185169524768200046001939657416086023926178676204865061675134884545114494375005579605211151859712"
+          }
+        ],
+        "bootstrap": [
+          {
+            "block_length": 13,
+            "replicates": 10000,
+            "seed": 20260913,
+            "origins": 677,
+            "sample_mean": [
+              -0.0039629451760141085,
+              -0.002838067878485802,
+              -0.001711468241055879
+            ],
+            "percentile_025": [
+              -0.005119363500242913,
+              -0.003989812153125159,
+              -0.002878495440081057
+            ],
+            "percentile_975": [
+              -0.0028010707408985466,
+              -0.0016702091877337495,
+              -0.0005408689611668575
+            ],
+            "numerical_envelope": [
+              -0.005119363500242913,
+              -0.0005408689611668575
+            ],
+            "interpretation": "Dependence-sensitive empirical bootstrap uncertainty; not an exact finite-sample coverage guarantee"
+          },
+          {
+            "block_length": 26,
+            "replicates": 10000,
+            "seed": 20260913,
+            "origins": 677,
+            "sample_mean": [
+              -0.0039629451760141085,
+              -0.002838067878485802,
+              -0.001711468241055879
+            ],
+            "percentile_025": [
+              -0.005110904148867862,
+              -0.00394988141502723,
+              -0.00281501930850538
+            ],
+            "percentile_975": [
+              -0.0028762745418047207,
+              -0.0017527093808855662,
+              -0.0006205861774234826
+            ],
+            "numerical_envelope": [
+              -0.005110904148867862,
+              -0.0006205861774234826
+            ],
+            "interpretation": "Dependence-sensitive empirical bootstrap uncertainty; not an exact finite-sample coverage guarantee"
+          },
+          {
+            "block_length": 52,
+            "replicates": 10000,
+            "seed": 20260913,
+            "origins": 677,
+            "sample_mean": [
+              -0.0039629451760141085,
+              -0.002838067878485802,
+              -0.001711468241055879
+            ],
+            "percentile_025": [
+              -0.0050641939563069015,
+              -0.003875121768617142,
+              -0.00270281828875701
+            ],
+            "percentile_975": [
+              -0.0029062334475603202,
+              -0.0018004637093294038,
+              -0.0006946421745035799
+            ],
+            "numerical_envelope": [
+              -0.0050641939563069015,
+              -0.0006946421745035799
+            ],
+            "interpretation": "Dependence-sensitive empirical bootstrap uncertainty; not an exact finite-sample coverage guarantee"
+          }
+        ]
+      },
+      "probability_comparison": {
+        "missing": 0,
+        "disjoint_intervals": 676,
+        "usable_cases": 677,
+        "mean_change_bounds": [
+          {
+            "numerator": "450808460277322835404099583001000252511331517625229",
+            "denominator": "15830985735568340409982314107982777668913061305516032"
+          },
+          {
+            "numerator": "1932365202048940641097473110373282536991982467769145",
+            "denominator": "63323942942273361639929256431931110675652245222064128"
+          },
+          {
+            "numerator": "1030748281494294970289273944371282031969319432518687",
+            "denominator": "31661971471136680819964628215965555337826122611032064"
+          }
+        ]
+      }
+    },
+    {
+      "variant": "m035",
+      "contrast": "branching minus matched_mean_poisson Brier score",
+      "interpretation": "Prespecified secondary sensitivity; does not replace primary result or establish multiplicity-adjusted significance",
+      "scores": {
+        "total_cases": 677,
+        "usable_cases": 677,
+        "missing": 0,
+        "exact_mean_contrast": [
+          {
+            "numerator": "-38791454761525960814814483137099160533885918347029462999255064414028484603646030779654242795875949",
+            "denominator": "5784252893273824503125718780307147126344123846541815701016588673982571017413974609462181331424247808"
+          },
+          {
+            "numerator": "-538646557945923734566828048271916334040571626217453363361373231535097454488079889760532734744312791327",
+            "denominator": "94769199403398340659211776496552298518022125101741108445455788834530443549310560001428378934054876086272"
+          },
+          {
+            "numerator": "-110424640613855395207992263903871986585404711799438190380134300486631073597950883229258927371172026655",
+            "denominator": "23692299850849585164802944124138074629505531275435277111363947208632610887327640000357094733513719021568"
+          }
+        ],
+        "bootstrap": [
+          {
+            "block_length": 13,
+            "replicates": 10000,
+            "seed": 20260913,
+            "origins": 677,
+            "sample_mean": [
+              -0.006706389827221129,
+              -0.005683772378967765,
+              -0.004660781828231659
+            ],
+            "percentile_025": [
+              -0.009008927325446465,
+              -0.008011768360261209,
+              -0.007023061325998016
+            ],
+            "percentile_975": [
+              -0.00435303825693014,
+              -0.0032900072624425674,
+              -0.0022181438991085824
+            ],
+            "numerical_envelope": [
+              -0.009008927325446465,
+              -0.0022181438991085824
+            ],
+            "interpretation": "Dependence-sensitive empirical bootstrap uncertainty; not an exact finite-sample coverage guarantee"
+          },
+          {
+            "block_length": 26,
+            "replicates": 10000,
+            "seed": 20260913,
+            "origins": 677,
+            "sample_mean": [
+              -0.006706389827221129,
+              -0.005683772378967765,
+              -0.004660781828231659
+            ],
+            "percentile_025": [
+              -0.008798978742937358,
+              -0.007809473630541299,
+              -0.006826817551810803
+            ],
+            "percentile_975": [
+              -0.004549060239467868,
+              -0.003493244972065728,
+              -0.0024306320067827075
+            ],
+            "numerical_envelope": [
+              -0.008798978742937358,
+              -0.0024306320067827075
+            ],
+            "interpretation": "Dependence-sensitive empirical bootstrap uncertainty; not an exact finite-sample coverage guarantee"
+          },
+          {
+            "block_length": 52,
+            "replicates": 10000,
+            "seed": 20260913,
+            "origins": 677,
+            "sample_mean": [
+              -0.006706389827221129,
+              -0.005683772378967765,
+              -0.004660781828231659
+            ],
+            "percentile_025": [
+              -0.008596136050764478,
+              -0.007610278074218124,
+              -0.0066282771031809734
+            ],
+            "percentile_975": [
+              -0.004690732312000553,
+              -0.0036428170764180286,
+              -0.002588539891265394
+            ],
+            "numerical_envelope": [
+              -0.008596136050764478,
+              -0.002588539891265394
+            ],
+            "interpretation": "Dependence-sensitive empirical bootstrap uncertainty; not an exact finite-sample coverage guarantee"
+          }
+        ]
+      },
+      "probability_comparison": {
+        "missing": 0,
+        "disjoint_intervals": 659,
+        "usable_cases": 677,
+        "mean_change_bounds": [
+          {
+            "numerator": "1416300008165742542140553721402700212813116049389049",
+            "denominator": "126647885884546723279858512863862221351304490444128256"
+          },
+          {
+            "numerator": "3290204243092560777335248136998967282429592565769845",
+            "denominator": "253295771769093446559717025727724442702608980888256512"
+          },
+          {
+            "numerator": "468476058731704558798673603899066767404119129095199",
+            "denominator": "31661971471136680819964628215965555337826122611032064"
+          }
+        ]
+      }
+    },
+    {
+      "variant": "tighter",
+      "contrast": "branching minus matched_mean_poisson Brier score",
+      "interpretation": "Prespecified secondary sensitivity; does not replace primary result or establish multiplicity-adjusted significance",
+      "scores": {
+        "total_cases": 677,
+        "usable_cases": 677,
+        "missing": 0,
+        "exact_mean_contrast": [
+          {
+            "numerator": "-48812408398046649906689682494525478475553715614698059645155359767395609423828652845446425265950749",
+            "denominator": "23137011573095298012502875121228588505376495386167262804066354695930284069655898437848725325696991232"
+          },
+          {
+            "numerator": "-2405680309469013850098215087960607373352729195454815159966705570848114664577703477563470410067028171",
+            "denominator": "1480768740678099072800184007758629664344095704714704819460246700539538180457977500022318420844607438848"
+          },
+          {
+            "numerator": "-421802875533897071850875068078765760448150582205532350932914765107971399464118380253406621968518939",
+            "denominator": "370192185169524768200046001939657416086023926178676204865061675134884545114494375005579605211151859712"
+          }
+        ],
+        "bootstrap": [
+          {
+            "block_length": 13,
+            "replicates": 10000,
+            "seed": 20260913,
+            "origins": 677,
+            "sample_mean": [
+              -0.0021097110248588817,
+              -0.0016246158116272535,
+              -0.0011394159369969895
+            ],
+            "percentile_025": [
+              -0.0032745452029942874,
+              -0.0028124117744228387,
+              -0.0023496612349494326
+            ],
+            "percentile_975": [
+              -0.0009120423950763995,
+              -0.0004027326133420064,
+              0.00010550263377205312
+            ],
+            "numerical_envelope": [
+              -0.0032745452029942874,
+              0.00010550263377205312
+            ],
+            "interpretation": "Dependence-sensitive empirical bootstrap uncertainty; not an exact finite-sample coverage guarantee"
+          },
+          {
+            "block_length": 26,
+            "replicates": 10000,
+            "seed": 20260913,
+            "origins": 677,
+            "sample_mean": [
+              -0.0021097110248588817,
+              -0.0016246158116272535,
+              -0.0011394159369969895
+            ],
+            "percentile_025": [
+              -0.003188689293340087,
+              -0.002720643616871033,
+              -0.002253170730562996
+            ],
+            "percentile_975": [
+              -0.0010186832765961414,
+              -0.0005091022332265831,
+              -6.438842407496911e-06
+            ],
+            "numerical_envelope": [
+              -0.003188689293340087,
+              -6.438842407496911e-06
+            ],
+            "interpretation": "Dependence-sensitive empirical bootstrap uncertainty; not an exact finite-sample coverage guarantee"
+          },
+          {
+            "block_length": 52,
+            "replicates": 10000,
+            "seed": 20260913,
+            "origins": 677,
+            "sample_mean": [
+              -0.0021097110248588817,
+              -0.0016246158116272535,
+              -0.0011394159369969895
+            ],
+            "percentile_025": [
+              -0.0030943043386161173,
+              -0.002615819791556342,
+              -0.002155803959823641
+            ],
+            "percentile_975": [
+              -0.0011003151037693197,
+              -0.0005949413128297461,
+              -8.856884121639987e-05
+            ],
+            "numerical_envelope": [
+              -0.0030943043386161173,
+              -8.856884121639987e-05
+            ],
+            "interpretation": "Dependence-sensitive empirical bootstrap uncertainty; not an exact finite-sample coverage guarantee"
+          }
+        ]
+      },
+      "probability_comparison": {
+        "missing": 0,
+        "disjoint_intervals": 0,
+        "usable_cases": 677,
+        "mean_change_bounds": [
+          {
+            "numerator": "-22110855412390890165006060792757775473235444998877",
+            "denominator": "15830985735568340409982314107982777668913061305516032"
+          },
+          {
+            "numerator": "-2270967191903740864557477318240471159911920617883",
+            "denominator": "63323942942273361639929256431931110675652245222064128"
+          },
+          {
+            "numerator": "41950743632878039465454644267275079786558969379871",
+            "denominator": "31661971471136680819964628215965555337826122611032064"
+          }
+        ],
+        "numerical_consistency": "No disjoint enclosures among available pairs; not a proof of correctness"
+      }
+    }
+  ],
+  "primary_scores_sha256": "b26953fdd367fca6bd5384dcc5581d6125a70f1276f660fdb795830e101d3502",
+  "primary_summary_sha256": "4ebfafae1bd16bee1e93d3a942fb81c58750e392a71cbc34f49b347b68db3b20",
+  "scope": "Merged disjoint completed analyses; no score or bootstrap recomputation."
+}

@@ -1,0 +1,43 @@
+{
+  "version": "1.0",
+  "written_before_test_forecasts": true,
+  "quadrature": {
+    "method": "Trapezoidal Volterra time integration; Gauss-Legendre unconditional subthreshold mark integration; scalar Brent root",
+    "grids": [
+      [
+        256,
+        32
+      ],
+      [
+        512,
+        64
+      ],
+      [
+        1024,
+        128
+      ],
+      [
+        2048,
+        256
+      ]
+    ],
+    "successive_probability_difference": "0.00001",
+    "root_xtol": 1e-13,
+    "root_rtol": 1e-13,
+    "wall_seconds": 120,
+    "error_claim": "Successive-grid difference is heuristic, not certified error"
+  },
+  "monte_carlo": {
+    "cases": "every20th test origin starting0, all9 targets;306 cases",
+    "samples_per_case": 100000,
+    "familywise_alpha": 0.01,
+    "seed": 20260914,
+    "batch_size": 256,
+    "maximum_events_per_batch": 2000000,
+    "maximum_generations": 10000,
+    "wall_seconds_per_case": 120,
+    "censoring": "Return lower/upper success fractions accounting for every unfinished or unstarted planned replicate; never discard difficult realizations",
+    "uncertainty": "Fixed-N Hoeffding allowance with union bound over306 cases; partial-simulation intervals widened for unknown outcomes",
+    "target_absorption": "Stop a replicate after first target event; this preserves the event indicator exactly"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "version": "1.0",
+  "origin_manifest": "experiments/forecast_origins_v1.csv",
+  "primary_fit": "results/fitting_pretest_m035_v1/fit.json",
+  "baseline_fit": "results/rate_baselines_v1/fit.json",
+  "workers": 2,
+  "initial_time_bins": 64,
+  "precision_bits": 160,
+  "radius_tolerance": "1e-27",
+  "max_iterations": 10000,
+  "policy": {
+    "initial_mark_bins": 48,
+    "max_time_bins": 2048,
+    "max_mark_bins": 1536,
+    "max_evaluations": 30,
+    "wall_seconds": "120",
+    "absolute_probability_tolerance": "0.001"
+  },
+  "label_policy": "Generate target labels only in separate scoring stage; no outcome labels in forecast worker inputs",
+  "history_precision": "Exact nanosecond membership; elapsed model times serialized as17 significant decimal digits of days",
+  "output_inputs": "Reconstruct from pinned raw source, exact origin, cutoff and serialization rule; preserve history SHA256 per case instead of repeated full catalog copies",
+  "output_directory": "results/test_m035_v1",
+  "case_selection": "primary",
+  "run_numerical_comparators": false,
+  "original_configuration_sha256": "f505373869e52cdb63e1f89e3a99e2f178dc50d0f897cd80f48da1fa4eb68331"
+}

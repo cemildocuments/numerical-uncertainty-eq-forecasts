@@ -1,0 +1,72 @@
+{
+  "version": "1.0",
+  "cutoff": "3.0",
+  "time_unit": "days",
+  "b_estimator": "1/(ln(10)*mean(M-m0)) from likelihood-period events; continuous-mark working model",
+  "bounds": {
+    "mu": [
+      1e-06,
+      10000
+    ],
+    "n": [
+      1e-06,
+      0.99
+    ],
+    "c": [
+      1e-05,
+      10
+    ],
+    "p": [
+      1.01,
+      4
+    ],
+    "alpha_over_b": [
+      0,
+      0.99
+    ]
+  },
+  "starts": {
+    "n": [
+      0.2,
+      0.6,
+      0.9
+    ],
+    "c": [
+      0.01,
+      0.1
+    ],
+    "p": [
+      1.1,
+      1.5
+    ],
+    "alpha_over_b": [
+      0.8
+    ]
+  },
+  "optimizer": {
+    "method": "L-BFGS-B",
+    "maxiter": 500,
+    "maxfun": 10000,
+    "ftol": 1e-10,
+    "gtol": 1e-06,
+    "maxls": 40
+  },
+  "selection": "minimum per-event negative log likelihood among finite successful fits; otherwise no accepted fit",
+  "training_interval": [
+    "1981-01-01",
+    "1998-01-01"
+  ],
+  "final_fit_interval": [
+    "1981-01-01",
+    "2007-01-01"
+  ],
+  "auxiliary_start": "1971-01-01",
+  "threshold_fit_rule": "Never use test observations; do not tune cutoff by test performance",
+  "primary_initial_rate": "count in likelihood period divided by duration; initialize mu as rate*(1-n)",
+  "likelihood_interval": [
+    "1981-01-01",
+    "2007-01-01"
+  ],
+  "scope": "Pre-test1981-2007 fit; no test observations",
+  "output_directory": "results/fitting_pretest_n099_v1"
+}

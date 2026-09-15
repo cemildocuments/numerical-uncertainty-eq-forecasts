@@ -1,0 +1,96 @@
+{
+  "status": "completed",
+  "test_outcomes_read": false,
+  "records": [
+    {
+      "threshold": "3.5",
+      "training_target_count": 3860,
+      "pretest_target_count": 5172,
+      "validation_origins": 469,
+      "validation_positive_windows": 392,
+      "choices": [
+        {
+          "prior_exposure_days": 7,
+          "validation_mean_log_loss": 0.47701599465890915
+        },
+        {
+          "prior_exposure_days": 30,
+          "validation_mean_log_loss": 0.48592250175419854
+        },
+        {
+          "prior_exposure_days": 90,
+          "validation_mean_log_loss": 0.5090266701794064
+        },
+        {
+          "prior_exposure_days": 365,
+          "validation_mean_log_loss": 0.5818244730975991
+        }
+      ],
+      "selected_prior_exposure_days": 7,
+      "historical_rate_per_day": 0.5446503791069924,
+      "prior_rate_per_day": 0.5447030328559394,
+      "pretest_exposure_days": 9496.0
+    },
+    {
+      "threshold": "4.5",
+      "training_target_count": 393,
+      "pretest_target_count": 518,
+      "validation_origins": 469,
+      "validation_positive_windows": 84,
+      "choices": [
+        {
+          "prior_exposure_days": 7,
+          "validation_mean_log_loss": 0.4923240060578458
+        },
+        {
+          "prior_exposure_days": 30,
+          "validation_mean_log_loss": 0.49202929562867526
+        },
+        {
+          "prior_exposure_days": 90,
+          "validation_mean_log_loss": 0.4940191494449638
+        },
+        {
+          "prior_exposure_days": 365,
+          "validation_mean_log_loss": 0.5083502391917764
+        }
+      ],
+      "selected_prior_exposure_days": 30,
+      "historical_rate_per_day": 0.05454928390901432,
+      "prior_rate_per_day": 0.054601937657961244,
+      "pretest_exposure_days": 9496.0
+    },
+    {
+      "threshold": "5.5",
+      "training_target_count": 55,
+      "pretest_target_count": 65,
+      "validation_origins": 469,
+      "validation_positive_windows": 8,
+      "choices": [
+        {
+          "prior_exposure_days": 7,
+          "validation_mean_log_loss": 0.10370186161971254
+        },
+        {
+          "prior_exposure_days": 30,
+          "validation_mean_log_loss": 0.09623577870988649
+        },
+        {
+          "prior_exposure_days": 90,
+          "validation_mean_log_loss": 0.09347912098471195
+        },
+        {
+          "prior_exposure_days": 365,
+          "validation_mean_log_loss": 0.09683305294585519
+        }
+      ],
+      "selected_prior_exposure_days": 90,
+      "historical_rate_per_day": 0.006844987363100252,
+      "prior_rate_per_day": 0.0068976411120471775,
+      "pretest_exposure_days": 9496.0
+    }
+  ],
+  "source_sha256": "5380f71c826e0026634f4e044e18fcbc3e755dd041a031fbc72853e29a748c98",
+  "configuration_sha256": "132e9564b1fdb8b60659f7dcaf3d2c53b8f4e1cce065b638e3727db73b612320",
+  "code_sha256": "3bebd2b539180997d5f946a301a20ed4b6c23d4490cc277d1e79962a9d71374b"
+}

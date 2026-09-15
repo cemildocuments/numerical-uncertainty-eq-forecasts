@@ -1,0 +1,49 @@
+{
+  "protocol_version": "1.0",
+  "data": {
+    "path": "data/raw/earthquakenpp_comcat/ComCat_catalog.csv",
+    "sha256": "5380f71c826e0026634f4e044e18fcbc3e755dd041a031fbc72853e29a748c98",
+    "catalog_end_exclusive": "2020-01-17T00:00:00Z",
+    "timezone_assumption": "UTC per source documentation",
+    "availability": "frozen retrospective snapshot; origin time treated as availability only in main analysis"
+  },
+  "partitions": {
+    "auxiliary_start": "1971-01-01T00:00:00Z",
+    "train_start": "1981-01-01T00:00:00Z",
+    "validation_start": "1998-01-01T00:00:00Z",
+    "test_start": "2007-01-01T00:00:00Z"
+  },
+  "targets": {
+    "primary_horizon_days": 7,
+    "primary_magnitude": "4.5",
+    "horizons_days": [
+      1,
+      7,
+      30
+    ],
+    "magnitude_thresholds": [
+      "3.5",
+      "4.5",
+      "5.5"
+    ],
+    "windows": "[origin, origin+horizon); conditioning time strictly <origin"
+  },
+  "evaluation": {
+    "primary_score": "Brier",
+    "primary_contrast": "branching minus matched-mean Poisson; negative favors branching",
+    "secondary": [
+      "log loss",
+      "reliability",
+      "PR-AUC",
+      "ROC-AUC",
+      "probability discrepancy",
+      "resource usage and failure coverage"
+    ],
+    "bootstrap_replicates": 10000,
+    "bootstrap_block_origins": 13,
+    "bootstrap_seed": 20260913,
+    "interval_level": "0.95",
+    "primary_inference": "two-sided paired circular moving-block bootstrap; exploratory secondary comparisons, no multiple confirmatory claims"
+  },
+  "original_protocol_sha256": "b5cfdbd8f0ac431c1cbece9419b7b9c0b7357b97dde3c89d2f35f0dd468b3b92"
+}

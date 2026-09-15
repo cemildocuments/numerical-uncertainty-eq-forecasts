@@ -1,0 +1,921 @@
+{
+  "status": "completed",
+  "model_summaries": [
+    {
+      "horizon_days": "1",
+      "magnitude_threshold": "3.5",
+      "model": "branching",
+      "cases": 677,
+      "positive_windows": 168,
+      "missing": 0,
+      "scored_cases": 677,
+      "scope": "full grid with documented same-input numerical recovery",
+      "brier_mean_lower": {
+        "numerator": "1013990841809428197113822641484585984831318275474008171222643787297467037060887577778320799296198881",
+        "denominator": "5784252893273824503125718780307147126344123846541815701016588673982571017413974609462181331424247808"
+      },
+      "brier_mean_upper": {
+        "numerator": "4592321618303532776990341231529746547949422224140608298580863596486067983041970109726418147897357473145704763338249",
+        "denominator": "26049959174764709401086826316208229048866194810649518939649408822924173475882433187429158451715906141431725731872768"
+      },
+      "brier_midpoint_mean": {
+        "numerator": "18317813411278624007354453418851231334869110218400042686229455433764150497934730426331930326589801939059430727331337",
+        "denominator": "104199836699058837604347305264832916195464779242598075758597635291696693903529732749716633806863624565726902927491072"
+      }
+    },
+    {
+      "horizon_days": "1",
+      "magnitude_threshold": "3.5",
+      "model": "matched_mean_poisson",
+      "cases": 677,
+      "positive_windows": 168,
+      "missing": 0,
+      "scored_cases": 677,
+      "scope": "full grid with documented same-input numerical recovery",
+      "brier_mean_lower": {
+        "numerator": "2090351338901406031516534432519050441672366457500976047506790411692354193147340357827317889721580811",
+        "denominator": "11568505786547649006251437560614294252688247693083631402033177347965142034827949218924362662848495616"
+      },
+      "brier_mean_upper": {
+        "numerator": "2104623927903965230648055123086688380973548052222542962429648441637191056321117342672279811562375615",
+        "denominator": "11568505786547649006251437560614294252688247693083631402033177347965142034827949218924362662848495616"
+      },
+      "brier_midpoint_mean": {
+        "numerator": "8389920830330462006916406901926136397686693677518216130750491513825269482343453043676940182372615645",
+        "denominator": "46274023146190596025005750242457177010752990772334525608132709391860568139311796875697450651393982464"
+      }
+    },
+    {
+      "horizon_days": "1",
+      "magnitude_threshold": "3.5",
+      "model": "historical_rate",
+      "cases": 677,
+      "positive_windows": 168,
+      "missing": 0,
+      "scored_cases": 677,
+      "scope": "full grid with documented same-input numerical recovery",
+      "brier_mean_lower": {
+        "numerator": "365731092355047085868595895742762813",
+        "denominator": "1692500000000000000000000000000000000"
+      },
+      "brier_mean_upper": {
+        "numerator": "365731092355047085868595895742762813",
+        "denominator": "1692500000000000000000000000000000000"
+      },
+      "brier_midpoint_mean": {
+        "numerator": "365731092355047085868595895742762813",
+        "denominator": "1692500000000000000000000000000000000"
+      }
+    },
+    {
+      "horizon_days": "1",
+      "magnitude_threshold": "3.5",
+      "model": "recent_rate",
+      "cases": 677,
+      "positive_windows": 168,
+      "missing": 0,
+      "scored_cases": 677,
+      "scope": "full grid with documented same-input numerical recovery",
+      "brier_mean_lower": {
+        "numerator": "43057573141331085372769563416566273",
+        "denominator": "211562500000000000000000000000000000"
+      },
+      "brier_mean_upper": {
+        "numerator": "43057573141331085372769563416566273",
+        "denominator": "211562500000000000000000000000000000"
+      },
+      "brier_midpoint_mean": {
+        "numerator": "43057573141331085372769563416566273",
+        "denominator": "211562500000000000000000000000000000"
+      }
+    },
+    {
+      "horizon_days": "1",
+      "magnitude_threshold": "4.5",
+      "model": "branching",
+      "cases": 677,
+      "positive_windows": 16,
+      "missing": 0,
+      "scored_cases": 677,
+      "scope": "full grid with documented same-input numerical recovery",
+      "brier_mean_lower": {
+        "numerator": "15877836007414849726627898009982138814383297097198201197592924359267766330449381164576207326840179",
+        "denominator": "723031611659228062890714847538393390793015480817726962627073584247821377176746826182772666428030976"
+      },
+      "brier_mean_upper": {
+        "numerator": "509932392128729092672614877436904666618149257373616267617742484418655466913853901087945662405820169",
+        "denominator": "23137011573095298012502875121228588505376495386167262804066354695930284069655898437848725325696991232"
+      },
+      "brier_midpoint_mean": {
+        "numerator": "2036034088362657367199661863808594078593265915840870292240826231883313155915296695030598551463849321",
+        "denominator": "92548046292381192050011500484914354021505981544669051216265418783721136278623593751394901302787964928"
+      }
+    },
+    {
+      "horizon_days": "1",
+      "magnitude_threshold": "4.5",
+      "model": "matched_mean_poisson",
+      "cases": 677,
+      "positive_windows": 16,
+      "missing": 0,
+      "scored_cases": 677,
+      "scope": "full grid with documented same-input numerical recovery",
+      "brier_mean_lower": {
+        "numerator": "32705296096305401126428682783402493646286833842800372777810537277595339870666760811074897765832367077",
+        "denominator": "1480768740678099072800184007758629664344095704714704819460246700539538180457977500022318420844607438848"
+      },
+      "brier_mean_upper": {
+        "numerator": "32783113169401989785307933431470792643791569917194775114494791275250759023267981551081311298058036047",
+        "denominator": "1480768740678099072800184007758629664344095704714704819460246700539538180457977500022318420844607438848"
+      },
+      "brier_midpoint_mean": {
+        "numerator": "65488254744908368455695192805080877161591628659734359359768930954361175133461093262460701874348649255",
+        "denominator": "2961537481356198145600368015517259328688191409429409638920493401079076360915955000044636841689214877696"
+      }
+    },
+    {
+      "horizon_days": "1",
+      "magnitude_threshold": "4.5",
+      "model": "historical_rate",
+      "cases": 677,
+      "positive_windows": 16,
+      "missing": 0,
+      "scored_cases": 677,
+      "scope": "full grid with documented same-input numerical recovery",
+      "brier_mean_lower": {
+        "numerator": "40523009180195656268755644392341813",
+        "denominator": "1692500000000000000000000000000000000"
+      },
+      "brier_mean_upper": {
+        "numerator": "40523009180195656268755644392341813",
+        "denominator": "1692500000000000000000000000000000000"
+      },
+      "brier_midpoint_mean": {
+        "numerator": "40523009180195656268755644392341813",
+        "denominator": "1692500000000000000000000000000000000"
+      }
+    },
+    {
+      "horizon_days": "1",
+      "magnitude_threshold": "4.5",
+      "model": "recent_rate",
+      "cases": 677,
+      "positive_windows": 16,
+      "missing": 0,
+      "scored_cases": 677,
+      "scope": "full grid with documented same-input numerical recovery",
+      "brier_mean_lower": {
+        "numerator": "2031680480872657908539281613906059803",
+        "denominator": "84625000000000000000000000000000000000"
+      },
+      "brier_mean_upper": {
+        "numerator": "2031680480872657908539281613906059803",
+        "denominator": "84625000000000000000000000000000000000"
+      },
+      "brier_midpoint_mean": {
+        "numerator": "2031680480872657908539281613906059803",
+        "denominator": "84625000000000000000000000000000000000"
+      }
+    },
+    {
+      "horizon_days": "1",
+      "magnitude_threshold": "5.5",
+      "model": "branching",
+      "cases": 677,
+      "positive_windows": 2,
+      "missing": 0,
+      "scored_cases": 677,
+      "scope": "full grid with documented same-input numerical recovery",
+      "brier_mean_lower": {
+        "numerator": "1083055474759621373202542730921030432229537885682796703665241547993512257476787638617466205373035",
+        "denominator": "361515805829614031445357423769196695396507740408863481313536792123910688588373413091386333214015488"
+      },
+      "brier_mean_upper": {
+        "numerator": "4335875094506170797235601120051450246769302355392760125182622271925889869431339453192284462729469",
+        "denominator": "1446063223318456125781429695076786781586030961635453925254147168495642754353493652365545332856061952"
+      },
+      "brier_midpoint_mean": {
+        "numerator": "17336155418390219203002588617756478748860074300873298276235542104256891347992297294928017341371049",
+        "denominator": "5784252893273824503125718780307147126344123846541815701016588673982571017413974609462181331424247808"
+      }
+    },
+    {
+      "horizon_days": "1",
+      "magnitude_threshold": "5.5",
+      "model": "matched_mean_poisson",
+      "cases": 677,
+      "positive_windows": 2,
+      "missing": 0,
+      "scored_cases": 677,
+      "scope": "full grid with documented same-input numerical recovery",
+      "brier_mean_lower": {
+        "numerator": "284276255231346967933068324491571068334796782158357870204038411202276965119229248751547719844894873569",
+        "denominator": "94769199403398340659211776496552298518022125101741108445455788834530443549310560001428378934054876086272"
+      },
+      "brier_mean_upper": {
+        "numerator": "1137546775038432919308377361825961819148749016928083965910646645732819567439927170937221492123730917385",
+        "denominator": "379076797613593362636847105986209194072088500406964433781823155338121774197242240005713515736219504345088"
+      },
+      "brier_midpoint_mean": {
+        "numerator": "4549301835441294596786242739378659229871250908501635818503071998875713267861258209699770871824721426451",
+        "denominator": "1516307190454373450547388423944836776288354001627857735127292621352487096788968960022854062944878017380352"
+      }
+    },
+    {
+      "horizon_days": "1",
+      "magnitude_threshold": "5.5",
+      "model": "historical_rate",
+      "cases": 677,
+      "positive_windows": 2,
+      "missing": 0,
+      "scored_cases": 677,
+      "scope": "full grid with documented same-input numerical recovery",
+      "brier_mean_lower": {
+        "numerator": "125263583977138683205011033953960037",
+        "denominator": "42312500000000000000000000000000000000"
+      },
+      "brier_mean_upper": {
+        "numerator": "125263583977138683205011033953960037",
+        "denominator": "42312500000000000000000000000000000000"
+      },
+      "brier_midpoint_mean": {
+        "numerator": "125263583977138683205011033953960037",
+        "denominator": "42312500000000000000000000000000000000"
+      }
+    },
+    {
+      "horizon_days": "1",
+      "magnitude_threshold": "5.5",
+      "model": "recent_rate",
+      "cases": 677,
+      "positive_windows": 2,
+      "missing": 0,
+      "scored_cases": 677,
+      "scope": "full grid with documented same-input numerical recovery",
+      "brier_mean_lower": {
+        "numerator": "201141323767446972312022468208917812187",
+        "denominator": "67700000000000000000000000000000000000000"
+      },
+      "brier_mean_upper": {
+        "numerator": "201141323767446972312022468208917812187",
+        "denominator": "67700000000000000000000000000000000000000"
+      },
+      "brier_midpoint_mean": {
+        "numerator": "201141323767446972312022468208917812187",
+        "denominator": "67700000000000000000000000000000000000000"
+      }
+    },
+    {
+      "horizon_days": "7",
+      "magnitude_threshold": "3.5",
+      "model": "branching",
+      "cases": 677,
+      "positive_windows": 556,
+      "missing": 0,
+      "scored_cases": 677,
+      "scope": "full grid with documented same-input numerical recovery",
+      "brier_mean_lower": {
+        "numerator": "13605278319332631021090086401872959325608094958131245521533968809998405752594662001683795370493358868809",
+        "denominator": "94769199403398340659211776496552298518022125101741108445455788834530443549310560001428378934054876086272"
+      },
+      "brier_mean_upper": {
+        "numerator": "4137011490688985361544667775179683113267223494638009745863496521344892956244610600912166314633900793787792444985655735351060633",
+        "denominator": "28642233015743891295388586466443903613685118103476376669165263001649454122686897991913798109931983861876432034620212068606803968"
+      },
+      "brier_midpoint_mean": {
+        "numerator": "16497836401851312391937663181308524620833965402055478060693195449688215122018032972256084706190600400647061104532040540525242521",
+        "denominator": "114568932062975565181554345865775614454740472413905506676661052006597816490747591967655192439727935447505728138480848274427215872"
+      }
+    },
+    {
+      "horizon_days": "7",
+      "magnitude_threshold": "3.5",
+      "model": "matched_mean_poisson",
+      "cases": 677,
+      "positive_windows": 556,
+      "missing": 0,
+      "scored_cases": 677,
+      "scope": "full grid with documented same-input numerical recovery",
+      "brier_mean_lower": {
+        "numerator": "112370933311714486252912549832599981663797011044582901036324535982955062051331024974356474835454275",
+        "denominator": "723031611659228062890714847538393390793015480817726962627073584247821377176746826182772666428030976"
+      },
+      "brier_mean_upper": {
+        "numerator": "56414692359917688017794332992165302727875516103645537158155816307963657359185400560824742251488399",
+        "denominator": "361515805829614031445357423769196695396507740408863481313536792123910688588373413091386333214015488"
+      },
+      "brier_midpoint_mean": {
+        "numerator": "112599769035167627685170651455147396158374949261374970819470642039848048303410714017716689197619977",
+        "denominator": "723031611659228062890714847538393390793015480817726962627073584247821377176746826182772666428030976"
+      }
+    },
+    {
+      "horizon_days": "7",
+      "magnitude_threshold": "3.5",
+      "model": "historical_rate",
+      "cases": 677,
+      "positive_windows": 556,
+      "missing": 0,
+      "scored_cases": 677,
+      "scope": "full grid with documented same-input numerical recovery",
+      "brier_mean_lower": {
+        "numerator": "724901317459418218529399301649453",
+        "denominator": "4231250000000000000000000000000000"
+      },
+      "brier_mean_upper": {
+        "numerator": "724901317459418218529399301649453",
+        "denominator": "4231250000000000000000000000000000"
+      },
+      "brier_midpoint_mean": {
+        "numerator": "724901317459418218529399301649453",
+        "denominator": "4231250000000000000000000000000000"
+      }
+    },
+    {
+      "horizon_days": "7",
+      "magnitude_threshold": "3.5",
+      "model": "recent_rate",
+      "cases": 677,
+      "positive_windows": 556,
+      "missing": 0,
+      "scored_cases": 677,
+      "scope": "full grid with documented same-input numerical recovery",
+      "brier_mean_lower": {
+        "numerator": "10154115432538134694468904786943497",
+        "denominator": "67700000000000000000000000000000000"
+      },
+      "brier_mean_upper": {
+        "numerator": "10154115432538134694468904786943497",
+        "denominator": "67700000000000000000000000000000000"
+      },
+      "brier_midpoint_mean": {
+        "numerator": "10154115432538134694468904786943497",
+        "denominator": "67700000000000000000000000000000000"
+      }
+    },
+    {
+      "horizon_days": "7",
+      "magnitude_threshold": "4.5",
+      "model": "branching",
+      "cases": 677,
+      "positive_windows": 113,
+      "missing": 0,
+      "scored_cases": 677,
+      "scope": "full grid with documented same-input numerical recovery",
+      "brier_mean_lower": {
+        "numerator": "766207784275404539995785307954318673835788611437597851615975417877328114589178555731181523348030061",
+        "denominator": "5784252893273824503125718780307147126344123846541815701016588673982571017413974609462181331424247808"
+      },
+      "brier_mean_upper": {
+        "numerator": "197646510817409728471744744044973308950695298785761161868269282570479109903118740831217542713813814073",
+        "denominator": "1480768740678099072800184007758629664344095704714704819460246700539538180457977500022318420844607438848"
+      },
+      "brier_midpoint_mean": {
+        "numerator": "787586533083060834027026060080685055200978147015441072722421867744500259920215853209339944488840673337",
+        "denominator": "5923074962712396291200736031034518657376382818858819277840986802158152721831910000089273683378429755392"
+      }
+    },
+    {
+      "horizon_days": "7",
+      "magnitude_threshold": "4.5",
+      "model": "matched_mean_poisson",
+      "cases": 677,
+      "positive_windows": 113,
+      "missing": 0,
+      "scored_cases": 677,
+      "scope": "full grid with documented same-input numerical recovery",
+      "brier_mean_lower": {
+        "numerator": "3103634903442381750931209480556372785513878048388670311104799612559356416090659355060269871242889889",
+        "denominator": "23137011573095298012502875121228588505376495386167262804066354695930284069655898437848725325696991232"
+      },
+      "brier_mean_upper": {
+        "numerator": "3124690724998046407693619958396649997668932614036625057344117138853118161989788567680654054775482793",
+        "denominator": "23137011573095298012502875121228588505376495386167262804066354695930284069655898437848725325696991232"
+      },
+      "brier_midpoint_mean": {
+        "numerator": "389268594653979012944864906049279561861267083259766970485345228662307310808327531357889471757151657",
+        "denominator": "2892126446636912251562859390153573563172061923270907850508294336991285508706987304731090665712123904"
+      }
+    },
+    {
+      "horizon_days": "7",
+      "magnitude_threshold": "4.5",
+      "model": "historical_rate",
+      "cases": 677,
+      "positive_windows": 113,
+      "missing": 0,
+      "scored_cases": 677,
+      "scope": "full grid with documented same-input numerical recovery",
+      "brier_mean_lower": {
+        "numerator": "10947027394671074718327260751716237",
+        "denominator": "67700000000000000000000000000000000"
+      },
+      "brier_mean_upper": {
+        "numerator": "10947027394671074718327260751716237",
+        "denominator": "67700000000000000000000000000000000"
+      },
+      "brier_midpoint_mean": {
+        "numerator": "10947027394671074718327260751716237",
+        "denominator": "67700000000000000000000000000000000"
+      }
+    },
+    {
+      "horizon_days": "7",
+      "magnitude_threshold": "4.5",
+      "model": "recent_rate",
+      "cases": 677,
+      "positive_windows": 113,
+      "missing": 0,
+      "scored_cases": 677,
+      "scope": "full grid with documented same-input numerical recovery",
+      "brier_mean_lower": {
+        "numerator": "503760042491101067730872279547593101",
+        "denominator": "3385000000000000000000000000000000000"
+      },
+      "brier_mean_upper": {
+        "numerator": "503760042491101067730872279547593101",
+        "denominator": "3385000000000000000000000000000000000"
+      },
+      "brier_midpoint_mean": {
+        "numerator": "503760042491101067730872279547593101",
+        "denominator": "3385000000000000000000000000000000000"
+      }
+    },
+    {
+      "horizon_days": "7",
+      "magnitude_threshold": "5.5",
+      "model": "branching",
+      "cases": 677,
+      "positive_windows": 14,
+      "missing": 0,
+      "scored_cases": 677,
+      "scope": "full grid with documented same-input numerical recovery",
+      "brier_mean_lower": {
+        "numerator": "29625682544674186097281548701753094801642072509816227913587311788875114561148827230454479818285317",
+        "denominator": "1446063223318456125781429695076786781586030961635453925254147168495642754353493652365545332856061952"
+      },
+      "brier_mean_upper": {
+        "numerator": "14876119672499813676620376177461449016149094538846199864219416904936127618641533641953620522648605",
+        "denominator": "723031611659228062890714847538393390793015480817726962627073584247821377176746826182772666428030976"
+      },
+      "brier_midpoint_mean": {
+        "numerator": "118754111775074469338193857015870189801477743944666233771987575912632944129140117342958829644147007",
+        "denominator": "5784252893273824503125718780307147126344123846541815701016588673982571017413974609462181331424247808"
+      }
+    },
+    {
+      "horizon_days": "7",
+      "magnitude_threshold": "5.5",
+      "model": "matched_mean_poisson",
+      "cases": 677,
+      "positive_windows": 14,
+      "missing": 0,
+      "scored_cases": 677,
+      "scope": "full grid with documented same-input numerical recovery",
+      "brier_mean_lower": {
+        "numerator": "121646393728531631650233751281517720221725641178892497315472736892379356746418409093304072956176243313",
+        "denominator": "5923074962712396291200736031034518657376382818858819277840986802158152721831910000089273683378429755392"
+      },
+      "brier_mean_upper": {
+        "numerator": "121835229129101007494940429600018380208879631279832138523107606222187673916815176980001916130831790551",
+        "denominator": "5923074962712396291200736031034518657376382818858819277840986802158152721831910000089273683378429755392"
+      },
+      "brier_midpoint_mean": {
+        "numerator": "243481200194723684898140133060134061250850283179242683126298415756494827093394150894720806422652021905",
+        "denominator": "11846149925424792582401472062069037314752765637717638555681973604316305443663820000178547366756859510784"
+      }
+    },
+    {
+      "horizon_days": "7",
+      "magnitude_threshold": "5.5",
+      "model": "historical_rate",
+      "cases": 677,
+      "positive_windows": 14,
+      "missing": 0,
+      "scored_cases": 677,
+      "scope": "full grid with documented same-input numerical recovery",
+      "brier_mean_lower": {
+        "numerator": "1417186596963411228622208851930997",
+        "denominator": "67700000000000000000000000000000000"
+      },
+      "brier_mean_upper": {
+        "numerator": "1417186596963411228622208851930997",
+        "denominator": "67700000000000000000000000000000000"
+      },
+      "brier_midpoint_mean": {
+        "numerator": "1417186596963411228622208851930997",
+        "denominator": "67700000000000000000000000000000000"
+      }
+    },
+    {
+      "horizon_days": "7",
+      "magnitude_threshold": "5.5",
+      "model": "recent_rate",
+      "cases": 677,
+      "positive_windows": 14,
+      "missing": 0,
+      "scored_cases": 677,
+      "scope": "full grid with documented same-input numerical recovery",
+      "brier_mean_lower": {
+        "numerator": "14207809317916912373222843295355752651",
+        "denominator": "677000000000000000000000000000000000000"
+      },
+      "brier_mean_upper": {
+        "numerator": "14207809317916912373222843295355752651",
+        "denominator": "677000000000000000000000000000000000000"
+      },
+      "brier_midpoint_mean": {
+        "numerator": "14207809317916912373222843295355752651",
+        "denominator": "677000000000000000000000000000000000000"
+      }
+    },
+    {
+      "horizon_days": "30",
+      "magnitude_threshold": "3.5",
+      "model": "branching",
+      "cases": 677,
+      "positive_windows": 677,
+      "missing": 0,
+      "scored_cases": 677,
+      "scope": "full grid with documented same-input numerical recovery",
+      "brier_mean_lower": {
+        "numerator": "234477402588936291559815499534162663230852846855997550777744748178165024623283557509769559673283938536512228692017",
+        "denominator": "426802531119344998827406562364755624736623735777681718307215914154789658228857785342839332072913406221217394391003430912"
+      },
+      "brier_mean_upper": {
+        "numerator": "83572901720280744812807956289576957886630240685899647124531946627508547869936420038242183726389858423039792731631833638524323205367367857419513",
+        "denominator": "135259121188091311401301844772478309695475260325387870024425552746648106699582804788572622833534980126412981271628306156813969890232202825750940745728"
+      },
+      "brier_midpoint_mean": {
+        "numerator": "315490841445954813009790423026827033726298189217609605618334527668199613968863406248722339727757411292522105246220046339227881586512212194047225",
+        "denominator": "541036484752365245605207379089913238781901041301551480097702210986592426798331219154290491334139920505651925086513224627255879560928811303003762982912"
+      }
+    },
+    {
+      "horizon_days": "30",
+      "magnitude_threshold": "3.5",
+      "model": "matched_mean_poisson",
+      "cases": 677,
+      "positive_windows": 677,
+      "missing": 0,
+      "scored_cases": 677,
+      "scope": "full grid with documented same-input numerical recovery",
+      "brier_mean_lower": {
+        "numerator": "170265877259218808506923190320454301591556793737095267203363398075424902725073310236634873",
+        "denominator": "723031611659228062890714847538393390793015480817726962627073584247821377176746826182772666428030976"
+      },
+      "brier_mean_upper": {
+        "numerator": "543281725454753446509671252170801713895615131575915691398468639068305608210457901889169289",
+        "denominator": "1446063223318456125781429695076786781586030961635453925254147168495642754353493652365545332856061952"
+      },
+      "brier_midpoint_mean": {
+        "numerator": "1744021773830694960339567078420761770163723903141791974243626843498076773136177305605091507",
+        "denominator": "5784252893273824503125718780307147126344123846541815701016588673982571017413974609462181331424247808"
+      }
+    },
+    {
+      "horizon_days": "30",
+      "magnitude_threshold": "3.5",
+      "model": "historical_rate",
+      "cases": 677,
+      "positive_windows": 677,
+      "missing": 0,
+      "scored_cases": 677,
+      "scope": "full grid with documented same-input numerical recovery",
+      "brier_mean_lower": {
+        "numerator": "160553861689009441",
+        "denominator": "25000000000000000000000000000000"
+      },
+      "brier_mean_upper": {
+        "numerator": "160553861689009441",
+        "denominator": "25000000000000000000000000000000"
+      },
+      "brier_midpoint_mean": {
+        "numerator": "160553861689009441",
+        "denominator": "25000000000000000000000000000000"
+      }
+    },
+    {
+      "horizon_days": "30",
+      "magnitude_threshold": "3.5",
+      "model": "recent_rate",
+      "cases": 677,
+      "positive_windows": 677,
+      "missing": 0,
+      "scored_cases": 677,
+      "scope": "full grid with documented same-input numerical recovery",
+      "brier_mean_lower": {
+        "numerator": "19229144932313402636319225179",
+        "denominator": "67700000000000000000000000000000000"
+      },
+      "brier_mean_upper": {
+        "numerator": "19229144932313402636319225179",
+        "denominator": "67700000000000000000000000000000000"
+      },
+      "brier_midpoint_mean": {
+        "numerator": "19229144932313402636319225179",
+        "denominator": "67700000000000000000000000000000000"
+      }
+    },
+    {
+      "horizon_days": "30",
+      "magnitude_threshold": "4.5",
+      "model": "branching",
+      "cases": 677,
+      "positive_windows": 356,
+      "missing": 0,
+      "scored_cases": 677,
+      "scope": "full grid with documented same-input numerical recovery",
+      "brier_mean_lower": {
+        "numerator": "5670186170769024060762417039074670496755220319583088613338777823313313692815102938114780037976039025",
+        "denominator": "23137011573095298012502875121228588505376495386167262804066354695930284069655898437848725325696991232"
+      },
+      "brier_mean_upper": {
+        "numerator": "5849668571527462241250098241977658117239592247959402260100358501430539380789243444810188248108532993509",
+        "denominator": "23692299850849585164802944124138074629505531275435277111363947208632610887327640000357094733513719021568"
+      },
+      "brier_midpoint_mean": {
+        "numerator": "23311794320541590753342222185373867825808528231915181413514157368960846540223934468602995855877174546917",
+        "denominator": "94769199403398340659211776496552298518022125101741108445455788834530443549310560001428378934054876086272"
+      }
+    },
+    {
+      "horizon_days": "30",
+      "magnitude_threshold": "4.5",
+      "model": "matched_mean_poisson",
+      "cases": 677,
+      "positive_windows": 356,
+      "missing": 0,
+      "scored_cases": 677,
+      "scope": "full grid with documented same-input numerical recovery",
+      "brier_mean_lower": {
+        "numerator": "184266768595902088589368216726897101164600055926964124699140077952681333266988648927262422948552795",
+        "denominator": "723031611659228062890714847538393390793015480817726962627073584247821377176746826182772666428030976"
+      },
+      "brier_mean_upper": {
+        "numerator": "46267956718805016855337819870506364744130964931097426145970826095204305153280317858749664834736639",
+        "denominator": "180757902914807015722678711884598347698253870204431740656768396061955344294186706545693166607007744"
+      },
+      "brier_midpoint_mean": {
+        "numerator": "738676163642154056023054983123055066964268757939172109821875280351832650944396570661394684075838773",
+        "denominator": "2892126446636912251562859390153573563172061923270907850508294336991285508706987304731090665712123904"
+      }
+    },
+    {
+      "horizon_days": "30",
+      "magnitude_threshold": "4.5",
+      "model": "historical_rate",
+      "cases": 677,
+      "positive_windows": 356,
+      "missing": 0,
+      "scored_cases": 677,
+      "scope": "full grid with documented same-input numerical recovery",
+      "brier_mean_lower": {
+        "numerator": "5541996730915212950024696337357237",
+        "denominator": "16925000000000000000000000000000000"
+      },
+      "brier_mean_upper": {
+        "numerator": "5541996730915212950024696337357237",
+        "denominator": "16925000000000000000000000000000000"
+      },
+      "brier_midpoint_mean": {
+        "numerator": "5541996730915212950024696337357237",
+        "denominator": "16925000000000000000000000000000000"
+      }
+    },
+    {
+      "horizon_days": "30",
+      "magnitude_threshold": "4.5",
+      "model": "recent_rate",
+      "cases": 677,
+      "positive_windows": 356,
+      "missing": 0,
+      "scored_cases": 677,
+      "scope": "full grid with documented same-input numerical recovery",
+      "brier_mean_lower": {
+        "numerator": "898719450563131367074672092803234541",
+        "denominator": "3385000000000000000000000000000000000"
+      },
+      "brier_mean_upper": {
+        "numerator": "898719450563131367074672092803234541",
+        "denominator": "3385000000000000000000000000000000000"
+      },
+      "brier_midpoint_mean": {
+        "numerator": "898719450563131367074672092803234541",
+        "denominator": "3385000000000000000000000000000000000"
+      }
+    },
+    {
+      "horizon_days": "30",
+      "magnitude_threshold": "5.5",
+      "model": "branching",
+      "cases": 677,
+      "positive_windows": 54,
+      "missing": 0,
+      "scored_cases": 677,
+      "scope": "full grid with documented same-input numerical recovery",
+      "brier_mean_lower": {
+        "numerator": "53255094434198978018321735446911787343131623544620844326948140487352335504113585451172791584507721",
+        "denominator": "723031611659228062890714847538393390793015480817726962627073584247821377176746826182772666428030976"
+      },
+      "brier_mean_upper": {
+        "numerator": "26801272340375291267029179208950334519694475155139380290246172635002409982439212323289760131995835",
+        "denominator": "361515805829614031445357423769196695396507740408863481313536792123910688588373413091386333214015488"
+      },
+      "brier_midpoint_mean": {
+        "numerator": "213713273416019580559504101294779793152974467243180494072894213849554898415570363792023557114689727",
+        "denominator": "2892126446636912251562859390153573563172061923270907850508294336991285508706987304731090665712123904"
+      }
+    },
+    {
+      "horizon_days": "30",
+      "magnitude_threshold": "5.5",
+      "model": "matched_mean_poisson",
+      "cases": 677,
+      "positive_windows": 54,
+      "missing": 0,
+      "scored_cases": 677,
+      "scope": "full grid with documented same-input numerical recovery",
+      "brier_mean_lower": {
+        "numerator": "6823968023981842136897011283020536456330239902376473266543488762596966327942278073969567572055467815",
+        "denominator": "92548046292381192050011500484914354021505981544669051216265418783721136278623593751394901302787964928"
+      },
+      "brier_mean_upper": {
+        "numerator": "1716545316244906955976479432202495564438240311732837019791302849587387393115436385348450087566805593",
+        "denominator": "23137011573095298012502875121228588505376495386167262804066354695930284069655898437848725325696991232"
+      },
+      "brier_midpoint_mean": {
+        "numerator": "27380079649607268827363416767522124460922582083222438903899423992230027755605501826002948720314934609",
+        "denominator": "370192185169524768200046001939657416086023926178676204865061675134884545114494375005579605211151859712"
+      }
+    },
+    {
+      "horizon_days": "30",
+      "magnitude_threshold": "5.5",
+      "model": "historical_rate",
+      "cases": 677,
+      "positive_windows": 54,
+      "missing": 0,
+      "scored_cases": 677,
+      "scope": "full grid with documented same-input numerical recovery",
+      "brier_mean_lower": {
+        "numerator": "572814305633495303250179118854458853",
+        "denominator": "6770000000000000000000000000000000000"
+      },
+      "brier_mean_upper": {
+        "numerator": "572814305633495303250179118854458853",
+        "denominator": "6770000000000000000000000000000000000"
+      },
+      "brier_midpoint_mean": {
+        "numerator": "572814305633495303250179118854458853",
+        "denominator": "6770000000000000000000000000000000000"
+      }
+    },
+    {
+      "horizon_days": "30",
+      "magnitude_threshold": "5.5",
+      "model": "recent_rate",
+      "cases": 677,
+      "positive_windows": 54,
+      "missing": 0,
+      "scored_cases": 677,
+      "scope": "full grid with documented same-input numerical recovery",
+      "brier_mean_lower": {
+        "numerator": "562427386448447437227406353459575477",
+        "denominator": "6770000000000000000000000000000000000"
+      },
+      "brier_mean_upper": {
+        "numerator": "562427386448447437227406353459575477",
+        "denominator": "6770000000000000000000000000000000000"
+      },
+      "brier_midpoint_mean": {
+        "numerator": "562427386448447437227406353459575477",
+        "denominator": "6770000000000000000000000000000000000"
+      }
+    }
+  ],
+  "primary": {
+    "primary_cases": 677,
+    "missing": 0,
+    "contrast": "branching minus matched_mean_poisson",
+    "exact_mean_contrast": [
+      {
+        "numerator": "-59859587896428247710478726579375302325778168286233650880215467343805703633074344755927961383362549",
+        "denominator": "23137011573095298012502875121228588505376495386167262804066354695930284069655898437848725325696991232"
+      },
+      {
+        "numerator": "-9635548768288184484057267508239487490896839500561682831565160555905112615238931011617693669805920199",
+        "denominator": "5923074962712396291200736031034518657376382818858819277840986802158152721831910000089273683378429755392"
+      },
+      {
+        "numerator": "-986123002902703587852662710634549322192896311113738042437892633319700726683457892639729045731138823",
+        "denominator": "1480768740678099072800184007758629664344095704714704819460246700539538180457977500022318420844607438848"
+      }
+    ],
+    "bootstrap": [
+      {
+        "block_length": 13,
+        "replicates": 10000,
+        "seed": 20260913,
+        "origins": 677,
+        "sample_mean": [
+          -0.0025871788889985903,
+          -0.001626781499296729,
+          -0.0006659534171764874
+        ],
+        "percentile_025": [
+          -0.0037326591748912626,
+          -0.0028146133076464995,
+          -0.001896529822953998
+        ],
+        "percentile_975": [
+          -0.0014088926029092795,
+          -0.0004044547561796758,
+          0.0006037894405855419
+        ],
+        "numerical_envelope": [
+          -0.0037326591748912626,
+          0.0006037894405855419
+        ],
+        "interpretation": "Dependence-sensitive empirical bootstrap uncertainty; not an exact finite-sample coverage guarantee"
+      },
+      {
+        "block_length": 26,
+        "replicates": 10000,
+        "seed": 20260913,
+        "origins": 677,
+        "sample_mean": [
+          -0.0025871788889985903,
+          -0.001626781499296729,
+          -0.0006659534171764874
+        ],
+        "percentile_025": [
+          -0.0036534580686496464,
+          -0.0027228484350502935,
+          -0.0017977267767331675
+        ],
+        "percentile_975": [
+          -0.0015182355700709025,
+          -0.0005111043638480497,
+          0.000488850831791377
+        ],
+        "numerical_envelope": [
+          -0.0036534580686496464,
+          0.000488850831791377
+        ],
+        "interpretation": "Dependence-sensitive empirical bootstrap uncertainty; not an exact finite-sample coverage guarantee"
+      },
+      {
+        "block_length": 52,
+        "replicates": 10000,
+        "seed": 20260913,
+        "origins": 677,
+        "sample_mean": [
+          -0.0025871788889985903,
+          -0.001626781499296729,
+          -0.0006659534171764874
+        ],
+        "percentile_025": [
+          -0.003552401412257221,
+          -0.002618285043585648,
+          -0.0017080960859518898
+        ],
+        "percentile_975": [
+          -0.0015921171151402854,
+          -0.0005965026044792254,
+          0.000402728945107939
+        ],
+        "numerical_envelope": [
+          -0.003552401412257221,
+          0.000402728945107939
+        ],
+        "interpretation": "Dependence-sensitive empirical bootstrap uncertainty; not an exact finite-sample coverage guarantee"
+      }
+    ]
+  },
+  "forecast_manifest_sha256": "a3445414bc0c91d757236c274904596d059da81669ef166554cafd29998f3cae",
+  "source_sha256": "5380f71c826e0026634f4e044e18fcbc3e755dd041a031fbc72853e29a748c98",
+  "scoring_source_sha256": {
+    "score_forecasts.py": "482d58dba93c6c73bf9d08e2da0239378158bd34b372d1e40e59b03b7bb99495",
+    "score_intervals.py": "96af9a3289e6fb628cb9c8fa1a62dff62b434c1832bdf29d5714b02961971bca",
+    "forecast_context.py": "2f3aaf8ff930d55c04ed611a9ec03ab47babe5d1e8113c85e43eff20f0c5748b"
+  },
+  "recoveries": [
+    {
+      "origin_index": "33",
+      "model": "branching",
+      "original_sha256": "9682287039fba407b5b3a8a00ecc4030ed2680986eee2fbcef53c5c660890993",
+      "replacement_sha256": "8446ac1895930c01751983fb1f7bea254ae227156e1f85009d5f9887d7ec78af",
+      "reason": "Permission error while reading source provenance; recovered from completed identical-input tighter calculation."
+    },
+    {
+      "origin_index": "33",
+      "model": "matched_mean_poisson",
+      "original_sha256": "9682287039fba407b5b3a8a00ecc4030ed2680986eee2fbcef53c5c660890993",
+      "replacement_sha256": "8446ac1895930c01751983fb1f7bea254ae227156e1f85009d5f9887d7ec78af",
+      "reason": "Permission error while reading source provenance; recovered from completed identical-input tighter calculation."
+    }
+  ],
+  "original_scores_sha256": "f0667494bca0db10f8ca3daf86a841ac09eaaed25dd98c376e1a7bd1b7b995ba",
+  "reconciliation_source_sha256": "b2293fa6a92f8786f495732114d1951c6fac5a3f72d22393b9999fab0c5755b7"
+}

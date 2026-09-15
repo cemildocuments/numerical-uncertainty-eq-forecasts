@@ -1,0 +1,115 @@
+{
+  "source_sha256": "5380f71c826e0026634f4e044e18fcbc3e755dd041a031fbc72853e29a748c98",
+  "script_sha256": "3a0a1b9e37d4d58f7aa81cc8c080cdc22df1a1db2e3e17766bc000788a548f7c",
+  "protocol_sha256": "b5cfdbd8f0ac431c1cbece9419b7b9c0b7357b97dde3c89d2f35f0dd468b3b92",
+  "table_sha256": "6fff7de9f83bc68219b8b23d6e02c240b943f095f7c01328913f1953e95e8cdb",
+  "forecast_labels_generated": false,
+  "rows": [
+    {
+      "partition": "Auxiliary history",
+      "start_inclusive": "1971-01-01",
+      "end_exclusive": "1981-01-01",
+      "magnitude_cutoff": "2.5",
+      "events": 14932
+    },
+    {
+      "partition": "Auxiliary history",
+      "start_inclusive": "1971-01-01",
+      "end_exclusive": "1981-01-01",
+      "magnitude_cutoff": "3.0",
+      "events": 6396
+    },
+    {
+      "partition": "Auxiliary history",
+      "start_inclusive": "1971-01-01",
+      "end_exclusive": "1981-01-01",
+      "magnitude_cutoff": "3.5",
+      "events": 2173
+    },
+    {
+      "partition": "Training",
+      "start_inclusive": "1981-01-01",
+      "end_exclusive": "1998-01-01",
+      "magnitude_cutoff": "2.5",
+      "events": 40701
+    },
+    {
+      "partition": "Training",
+      "start_inclusive": "1981-01-01",
+      "end_exclusive": "1998-01-01",
+      "magnitude_cutoff": "3.0",
+      "events": 12933
+    },
+    {
+      "partition": "Training",
+      "start_inclusive": "1981-01-01",
+      "end_exclusive": "1998-01-01",
+      "magnitude_cutoff": "3.5",
+      "events": 3860
+    },
+    {
+      "partition": "Validation",
+      "start_inclusive": "1998-01-01",
+      "end_exclusive": "2007-01-01",
+      "magnitude_cutoff": "2.5",
+      "events": 14741
+    },
+    {
+      "partition": "Validation",
+      "start_inclusive": "1998-01-01",
+      "end_exclusive": "2007-01-01",
+      "magnitude_cutoff": "3.0",
+      "events": 4601
+    },
+    {
+      "partition": "Validation",
+      "start_inclusive": "1998-01-01",
+      "end_exclusive": "2007-01-01",
+      "magnitude_cutoff": "3.5",
+      "events": 1312
+    },
+    {
+      "partition": "Test catalog",
+      "start_inclusive": "2007-01-01",
+      "end_exclusive": "2020-01-17",
+      "magnitude_cutoff": "2.5",
+      "events": 21889
+    },
+    {
+      "partition": "Test catalog",
+      "start_inclusive": "2007-01-01",
+      "end_exclusive": "2020-01-17",
+      "magnitude_cutoff": "3.0",
+      "events": 7007
+    },
+    {
+      "partition": "Test catalog",
+      "start_inclusive": "2007-01-01",
+      "end_exclusive": "2020-01-17",
+      "magnitude_cutoff": "3.5",
+      "events": 2373
+    }
+  ],
+  "fit_count_checks": [
+    {
+      "fit": "results/fitting_pretest_m025_v1/fit.json",
+      "status": "running",
+      "counts_match": true
+    },
+    {
+      "fit": "results/fitting_pretest_m035_v1/fit.json",
+      "status": "completed",
+      "counts_match": true
+    },
+    {
+      "fit": "results/fitting_pretest_n099_v1/fit.json",
+      "status": "completed",
+      "counts_match": true
+    },
+    {
+      "fit": "results/fitting_pretest_v1/fit.json",
+      "status": "completed",
+      "counts_match": true
+    }
+  ]
+}

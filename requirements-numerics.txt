@@ -1,0 +1,5 @@
+llvmlite==0.49.0
+numba==0.67.0
+numpy==2.3.5
+python-flint==0.9.0
+scipy==1.18.1

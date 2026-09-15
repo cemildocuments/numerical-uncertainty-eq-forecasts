@@ -1,0 +1,27 @@
+{
+  "version": "1.0",
+  "thresholds": [
+    "3.5",
+    "4.5",
+    "5.5"
+  ],
+  "training_start": "1981-01-01",
+  "validation_start": "1998-01-01",
+  "test_start": "2007-01-01",
+  "validation_cadence_days": 7,
+  "validation_horizon_days": 7,
+  "trailing_window_days": 365,
+  "prior_exposure_candidates_days": [
+    7,
+    30,
+    90,
+    365
+  ],
+  "prior_rate": "(pre-origin fitting-period target count+0.5)/fitting-period exposure days",
+  "historical_rate": "unadjusted count/exposure maximum-likelihood Poisson rate",
+  "selection": "minimum validation mean Bernoulli log loss separately per threshold; first/smallest exposure breaks exact ties",
+  "final_refit": "historical rate and prior mean recomputed from1981-2007; chosen prior exposure held fixed",
+  "forecast": "1-exp(-horizon*(trailing_count+prior_rate*prior_exposure)/(365+prior_exposure))",
+  "information_set": "strictly before origin; target windows half-open",
+  "test_outcomes_read": false
+}
